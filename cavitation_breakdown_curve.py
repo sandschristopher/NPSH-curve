@@ -143,7 +143,7 @@ def post_process(new_spro_files, avg_window, inlet_pressures):
         if os.path.exists("results.csv"):
             isFirst = False
             
-        with open ("results.csv", 'a+', newline='') as outfile:                             
+        with open (project_name + '_cav_results_' + '.csv', 'a+', newline='') as outfile:                             
             writer = csv.DictWriter(outfile, fieldnames=results_dict.keys(), delimiter=",")
             if isFirst == True:
                 outfile.truncate(0)
