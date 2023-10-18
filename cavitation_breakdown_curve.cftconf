@@ -1,0 +1,5 @@
+[Project]
+	project_name = design2_v1
+
+[Inlet Pressures]
+    inlet_pressures = 62052.8 60329.13 58605.4 56881.75 55158.1 48263.3 41368.5 34473.8 27579
